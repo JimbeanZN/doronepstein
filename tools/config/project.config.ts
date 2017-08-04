@@ -30,8 +30,7 @@ export class ProjectConfig extends SeedConfig {
 
     // Add `local` third-party libraries to be injected/bundled.
     this.APP_ASSETS = [
-       {src: `${this.NPM_BASE}/skeleton-css/css/normalize.css`, inject: true, vendor: false},
-       {src: `${this.NPM_BASE}/skeleton-css/css/skeleton.css`, inject: true, vendor: false}
+       {src: `${this.NPM_BASE}/purecss/build/pure-min.css`, inject: true, vendor: false}
       // {src: `${this.CSS_SRC}/path-to-lib/test-lib.css`, inject: true, vendor: false},
     ];
 
