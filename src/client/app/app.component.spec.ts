@@ -54,11 +54,8 @@ export function main() {
 
 @Component({
   selector: 'test-cmp',
-  template: '<sd-app></sd-app>'
+  template: '<dne-app></dne-app>'
 })
 
 class TestComponent {
 }
-
-
-
