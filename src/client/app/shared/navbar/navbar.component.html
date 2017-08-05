@@ -1,7 +1,7 @@
 <div class="pure-menu pure-menu-horizontal">
   <ul class="pure-menu-list">
-    <li class="pure-menu-item pure-menu-selected"><a class="pure-menu-link" [routerLink]="['/']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">About</a></li>
-    <li class="pure-menu-item"><a class="pure-menu-link" [routerLink]="['/technologies']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">Technologies</a></li>
-    <li class="pure-menu-item"><a class="pure-menu-link" [routerLink]="['/contact']" [routerLinkActive]="['router-link-active']" [routerLinkActiveOptions]="{exact:true}">Contact</a></li>
+    <li class="pure-menu-item" [routerLinkActive]="['pure-menu-selected']" [routerLinkActiveOptions]="{exact:true}"><a class="pure-menu-link" [routerLink]="['/']">About</a></li>
+    <li class="pure-menu-item" [routerLinkActive]="['pure-menu-selected']" [routerLinkActiveOptions]="{exact:true}"><a class="pure-menu-link" [routerLink]="['/technologies']">Technologies</a></li>
+    <li class="pure-menu-item" [routerLinkActive]="['pure-menu-selected']" [routerLinkActiveOptions]="{exact:true}"><a class="pure-menu-link" [routerLink]="['/contact']">Contact</a></li>
   </ul>
 </div>
