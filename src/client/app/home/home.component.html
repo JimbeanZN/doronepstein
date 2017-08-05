@@ -1,52 +1,82 @@
-<h2 class="content-head is-center">Excepteur sint occaecat cupidatat.</h2>
-
 <div class="pure-g">
-  <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-
-    <h3 class="content-subhead">
-                <i class="fa fa-rocket"></i>
-                Get Started Quickly
-            </h3>
-    <p>
-      Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-    </p>
-  </div>
-  <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-    <h3 class="content-subhead">
-                <i class="fa fa-mobile"></i>
-                Responsive Layouts
-            </h3>
-    <p>
-      Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-    </p>
-  </div>
-  <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-    <h3 class="content-subhead">
-                <i class="fa fa-th-large"></i>
-                Modular
-            </h3>
-    <p>
-      Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-    </p>
-  </div>
-  <div class="l-box pure-u-1 pure-u-md-1-2 pure-u-lg-1-4">
-    <h3 class="content-subhead">
-                <i class="fa fa-check-square-o"></i>
-                Plays Nice
-            </h3>
-    <p>
-      Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.
-    </p>
+  <div class="pure-u-5-5">
+    <p class="text-justify">I’m Doron Epstein, a web application developer, currently serving my sentence at Derivco (a really cool development house in Durban, check them out). While my non-disclosure agreement says I can’t really tell you what I’m working on, I can say it’s
+      really awesome and I love what I do. The team and I have made decisions regarding strengths and weaknesses of different technologies and when to hit and miss them. I’ve been plugged into the matrix since a young age, preferring virtual life (such
+      pale skin must be kept indoors). While I prefer being alone, anyone that shares my hobbies gets special attention (DOTA2 anybody?). I am a collector, a grey jedi, a wizard, an adventurer, swing fire, build lego, play guitar (bass and acoustic), sing,
+      dig jazz music and build websites like this.</p>
   </div>
 </div>
 
-<p>Howdy! Here's a list of awesome computer scientists. Do you know any others? Add to the list yourself.</p>
+<!-- <div class="education col-md-4 col-sm-12">
+			<h3>Bio</h3>
+			<hr />
 
-<form (submit)="addName()">
-  <input [(ngModel)]="newName" name="newName" placeholder="Awesome Computer Scientist">
-  <button type="submit">Add</button>
-</form>
+		</div>
+		<div class="work col-md-4 col-sm-12">
+			<h3>Education</h3>
+			<hr />
+			<ul class="list-unstyled">
+				<li>
+					<div data-toggle="collapse" href="#issd" aria-expanded="false" aria-controls="issd"><strong>Information Systems Software Development @ CTI</strong><span class="pull-right">Feb 2006 – Feb 2007</span></div>
+					<ul class="list-unstyled collapse" id="issd">
+						<li>Computer Concepts</li>
+						<li>End User Computing</li>
+						<li>Using Linux</li>
+						<li>Science</li>
+						<li>Administrating Linux</li>
+						<li>Processing and Logic Concpets</li>
+						<li>Program Design</li>
+						<li>Software Engineering</li>
+						<li>Relational Database Design</li>
+						<li>MS Sql Server 2000</li>
+						<li>Programming: Java</li>
+						<li>DHTML</li>
+						<li>Hardware Essentials</li>
+						<li>Perl</li>
+						<li>Introduction to Programming: C#</li>
+						<li>Programming: C#</li>
+					</ul>
+				</li>
+				<li>
+					<div data-toggle="collapse" href="#matric" aria-expanded="false" aria-controls="matric"><strong>Matric @ Crawford College</strong><span class="pull-right">2002</span></div>
+					<ul class="list-unstyled collapse" id="matric">
+						<li>English</li>
+						<li>Afrikaans</li>
+						<li>Mathematics</li>
+						<li>Science</li>
+						<li>Computer Studies</li>
+						<li>Hebrew</li>
+						<li>Jewish Studies</li>
+					</ul>
+				</li>
+			</ul>
 
-<ul>
-  <li *ngFor="let name of names">{{ name }}</li>
-</ul>
+			<h3>Work Experience</h3>
+			<hr />
+			<ul class="list-unstyled">
+				<li>
+					<div data-toggle="collapse" href="#derivco" aria-expanded="false" aria-controls="derivco"><strong>Operations Developer - Level 2 @ Derivco</strong><span class="pull-right">April 2012 – Present</span></div>
+					<ul class="list-unstyled collapse" id="derivco">
+						<li><span>My Talent Tree - Lead Developer.</span> An HR system running all of Derivco's internal HR concerns. Built upon various technologies, ranging from MVC, ASP.net &amp; Angular2</li>
+						<li><span>Mentorship.</span> Passing down knowledge on junior team members and helping to mould good developers.</li>
+						<li><span>Technology Research.</span> Heavily involved in researching and implementing POC's on the latest technology.</li>
+						<li><span>Development Standards Inforcement.</span> Ensure that my team, and department are using the best standards possible. Pushing Jasmine, Karma &amp; Istanbul.</li>
+					</ul>
+				</li>
+				<li>
+					<div data-toggle="collapse" href="#pilotfish" aria-expanded="false" aria-controls="pilotfish"><strong>Senior Developer @ Pilotfish Digital</strong><span class="pull-right">April 2007 - March 2012</span></div>
+					<ul class="list-unstyled collapse" id="pilotfish">
+						<li><span>ScrapTaxi - Lead Developer.</span> This project dealt with collecting information from taxi owners, prior to scraping their vehicle.</li>
+						<li><span>MigrateTaxi - Lead Developer.</span> This project dealt with migrating Western Cape taxi owner vehicles onto the eNatis system.</li>
+						<li><span>Niscon Tracker - Lead Developer.</span> Custom MVC application to track shipping containers entering into South Africa.</li>
+						<li><span>Rainbow Intranet - Lead Developer.</span> Workflows and custom webparts using various technologies ranging from Silverlight to MVC.</li>
+						<li><span>Vector Logistics Intranet - Lead Developer.</span> Workflows and custom webparts using various technologies ranging from Silverlight to MVC.</li>
+						<li><span>BPO - Lead Theme Developer.</span> Custom SharePoint theme.</li>
+						<li><span>ECS - Lead Developer.</span> Custom SharePoint theme as well as custom webparts.</li>
+						<li><span>Web Development Team Lead.</span> Lead developer within a team, consisting of 2 Junior Developers and a Project Manager. Responsible for multiple websites.</li>
+						<li><span>AppSure.</span> Secondment to AppSure to assist with project. Wrote integration service with ABSA bank.</li>
+						<li><span>Additional Responsibilities.</span> Assist with escalated help desk tickets. Server room maintenance. Knowledge sharing with all team members.</li>
+					</ul>
+				</li>
+			</ul>
+		</div>-->

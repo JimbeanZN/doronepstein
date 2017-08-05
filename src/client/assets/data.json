@@ -1,6 +1,17 @@
 [
-  "Edsger Dijkstra",
-  "Donald Knuth",
-  "Alan Turing",
-  "Grace Hopper"
+  "angular.png",
+  "appveyor.png",
+  "bootstrap.png",
+  "codacy.png",
+  "codecov.png",
+  "css3.png",
+  "dotnet.png",
+  "github.png",
+  "gulp.png",
+  "html5.png",
+  "mvc.png",
+  "node-js.png",
+  "node-sass.png",
+  "sql.png",
+  "yeoman.png"
 ]

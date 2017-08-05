@@ -7,7 +7,7 @@ import { Observable } from 'rxjs/Observable';
  * This class provides the NameList service with methods to read names and add names.
  */
 @Injectable()
-export class NameListService {
+export class TechnologiesService {
 
   /**
    * Creates a new NameListService with the injected Http.
@@ -39,4 +39,3 @@ export class NameListService {
     return Observable.throw(errMsg);
   }
 }
-
