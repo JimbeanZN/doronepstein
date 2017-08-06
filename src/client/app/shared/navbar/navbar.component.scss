@@ -1,0 +1,29 @@
+$color-light: #21aad7;
+$color-dark: #0073b1;
+
+.navbar {
+  background-color: $color-light;
+  border-bottom: 1px solid $color-dark;
+  border-top: 1px solid $color-dark;
+
+  .pure-menu-item {
+    &.pure-menu-selected,
+    &:hover {
+      background-color: $color-dark;
+      .pure-menu-link {
+        color: #efefef;
+      }
+    }
+
+    .pure-menu-link {
+      color: #fff;
+      font-size: 14px;
+
+      &:hover,
+      &:visited {
+        background-color: $color-dark;
+        color: #efefef;
+      }
+    }
+  }
+}
